@@ -252,6 +252,23 @@ h1 span {
   padding-left: 18px;
 }
 
+.hero-info {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 32px;
+}
+
+.hero-info span {
+  padding: 11px 14px;
+  border-radius: 999px;
+  color: #bae6fd;
+  background: rgba(14, 165, 233, 0.12);
+  border: 1px solid rgba(125, 211, 252, 0.2);
+  font-size: 14px;
+  font-weight: 800;
+}
+
 @media (max-width: 900px) {
   .hero {
     grid-template-columns: 1fr;
